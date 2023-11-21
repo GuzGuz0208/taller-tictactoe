@@ -105,9 +105,9 @@ def juguemos(nodo, jugador):
         puntuar(nodo, jugador)
         juguemos(nodo, jugador)
 
-tableros = [[2, 1, 1], 
-            [2, 0, 0], 
-            [0, 0, 0]]   
+tableros = [[2, 0, 0], 
+            [2, 1, 0], 
+            [1, 0, 0]]   
  
 tictactoe = Arbol()
 tictactoe.agregar(Nodo(tableros),2)
